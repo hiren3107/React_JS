@@ -8,17 +8,39 @@ function App() {
   var [user, setUser] = useState("")
   var [email, setEmail] = useState("")
   var [pass, setPass] = useState("")
+  var [LogEmail, setLogEmail] = useState("")
+  var [LogPass, setLogPass] = useState("")
   var [arr, setArr] = useState([])
-  var obj = {
-    user,
-    email,
-    pass
-  }
   function hero() {
+    var obj = {
+      user,
+      email,
+      pass
+    }
     setArr([...arr, obj])
     
     console.log(arr);
+
+    alert("Signup done")
     
+    seth("show")
+  }
+  function loghero() {
+    var ans = arr.filter((Element) => {
+      if (Element.email == LogEmail && Element.pass == LogPass)
+      {
+        return Element
+      }
+    })
+
+    if (ans.length > 0) {
+      alert("done")
+    }
+    else {
+      alert("fail")
+    }
+    setLogEmail("")
+    setLogPass("")
   }
   return (
     <div>
@@ -33,9 +55,10 @@ function App() {
               </div>
             </div>
             <div className='w-[510px] pt-[56px] ps-[35px] pe-[35px]'>
-              <input className='in' placeholder='Enter Email / Mobile number' type="text" />
+              <input className='in' placeholder='Enter Email' type="text" value={LogEmail} onChange={(h) => { setLogEmail(h.target.value) }} />
+              <input className='in' placeholder='Enter Password' type="text" value={LogPass} onChange={(h) => { setLogPass(h.target.value) } } />
               <p className='text-[12px] text-[#878787] font-[500] mb-[20px]'>By continuing, you agree to Flipkart's <a href="" className='text-[#2878F1]'> Terms of Use </a> and <a href="" className='text-[#2878F1]'> Privacy Policy.</a></p>
-              <button className='bb mb-[270px]'>Request OTP</button>
+              <button className='bb mb-[200px]' onClick={loghero}>Request OTP</button>
               <div className='text-center'>
                 <span className='text-[#2878F1] font-[500] text-[14px] cursor-pointer' onClick={() => seth("hide")}>New to Flipkart? Create an account</span>
               </div>
