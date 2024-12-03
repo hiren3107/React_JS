@@ -1,0 +1,336 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+/* Header  */
+
+.main{
+  width: 100%;
+  height: 82px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  
+}
+header {
+  width: 80%;
+  height: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  padding-left: 16px;
+  padding-right: 16px;
+  box-shadow: 0px 4px 6px rgba(199, 196, 196, 0.728);
+}
+.logo{
+    width: 20%;
+      height: 100%;
+      /* border: 1px solid black; */
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+.img1{
+  width: 120px;
+  height: 40px;
+}
+.op{
+  width: 142px;
+  height: 40px;
+  background-color: #D6E2FA;
+  border-radius: 8px;
+  color: black;
+  border: none;
+  letter-spacing: 1PX;
+  font-size: 16px;
+  padding-left: 15px;
+}
+nav{
+  width: 50%;
+  height: 100%;
+  /* border: 1px solid black; */
+}
+ul{
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+li{
+  font-size: 16px;
+  font-weight: 500;
+}
+.btn1{
+  width: 100px;
+  height:40px ;
+  color: white;
+  background-color:#ED0331 ;
+  border: none;
+  border-radius: 8px;
+  font-size: 12px;
+  letter-spacing: 1px;
+
+}
+
+/* text  */
+
+.text_main{
+  width: 100%;
+  height: 450px;
+  /* border: 1px solid black; */
+  display: flex;
+ justify-content: center;
+align-items: center;
+}
+.contant{
+  width: 70%;
+  text-align: center;
+}
+.h1{
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+.p1{
+  font-size: 24px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #544D4F;
+}
+
+/* middel */
+
+.middel_main{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+}
+.ss{
+  width: 70%;
+  /* border: 1px solid black; */
+  height: auto;
+}
+.lakhan{
+  text-align: center;
+  margin-bottom: 40px;
+}
+.h2{
+  font-size: 34px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+.p2 {
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #544D4F;
+}
+.box{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.b1{
+  width: 22%;
+  height: 340px;
+  border-radius: 30px;
+  /* border: 1px solid black; */
+  background-image: url(https:\\masai-website-images.s3.ap-south-1.amazonaws.com/prateek_6232b84d8b.jpeg);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.b2 {
+  width: 22%;
+  height: 340px;
+  border-radius: 30px;
+  /* border: 1px solid black; */
+  background-image: url(https:\\masai-website-images.s3.ap-south-1.amazonaws.com/Nrupul_d3fe3b289a.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.b3 {
+  width: 22%;
+  height: 340px;
+  border-radius: 30px;
+  /* border: 1px solid black; */
+  background-image: url(https:\\masai-website-images.s3.ap-south-1.amazonaws.com/Yogesh_52e31f5560.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.b4 {
+  width: 22%;
+  height: 340px;
+  border-radius: 30px;
+  /* border: 1px solid black; */
+  background-image: url(https:\\masai-website-images.s3.ap-south-1.amazonaws.com/keshav_misra_203a893693.jpeg);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.b5 {
+  width: 22%;
+  height: 340px;
+  border-radius: 30px;
+  /* border: 1px solid black; */
+  background-image: url(https:\\masai-website-images.s3.ap-south-1.amazonaws.com/1614198786109_Ishita_Chanana_d3d8c56ab0.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.b6 {
+  width: 22%;
+  height: 340px;
+  border-radius: 30px;
+  /* border: 1px solid black; */
+  background-image: url(https:\\masai-website-images.s3.ap-south-1.amazonaws.com/Whats_App_Image_2022_04_15_at_9_02_03_PM_Ankit_Agrawal_4e1586afbf.jpeg);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.b7 {
+  width: 22%;
+  height: 340px;
+  border-radius: 30px;
+  /* border: 1px solid black; */
+  background-image: url(https:\\masai-website-images.s3.ap-south-1.amazonaws.com/amit_saharan_copy_Amit_Kumar_0650e4da7d.png);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.b8 {
+  width: 22%;
+  height: 340px;
+  border-radius: 30px;
+  /* border: 1px solid black; */
+  background-image: url(https:\\masai-website-images.s3.ap-south-1.amazonaws.com/aman_fbbc8625a4.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.detail{
+  text-align: center;
+  width: 100%;
+}
+.h3{
+  font-size: 24px;
+  color: white;
+
+}
+.p3{
+  font-size: 14px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+
+/* footer  */
+#c1 {
+  background-image: url(https://masai-website-images.s3.ap-south-1.amazonaws.com/prateek_6232b84d8b.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.226);
+}
+
+#c2 {
+  background-image: url(https://masai-website-images.s3.ap-south-1.amazonaws.com/Nrupul_d3fe3b289a.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.226);
+}
+
+#c3 {
+  background-image: url(https://masai-website-images.s3.ap-south-1.amazonaws.com/Yogesh_52e31f5560.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.226);
+}
+
+#c4 {
+  background-image: url(https://masai-website-images.s3.ap-south-1.amazonaws.com/keshav_misra_203a893693.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.226);
+}
+
+
+
+
+
+
+#c11 {
+  background-image: url(https://masai-website-images.s3.ap-south-1.amazonaws.com/amit_saharan_copy_Amit_Kumar_0650e4da7d.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.226);
+}
+
+#c22 {
+  background-image: url(https://masai-website-images.s3.ap-south-1.amazonaws.com/Muhammed_Nasif_Muhammed_Nasif_1_1deffb85ba.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.226);
+}
+
+#c33 {
+  background-image: url(https://masai-website-images.s3.ap-south-1.amazonaws.com/pravin_nikam_photo_Pravin_Dilip_Nikam_1_53a73a99eb.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.226);
+}
+
+#c44 {
+  background-image: url(https://masai-website-images.s3.ap-south-1.amazonaws.com/Avinash_K_1_f516948839.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.226);
+}
