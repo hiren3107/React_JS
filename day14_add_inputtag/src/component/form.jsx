@@ -39,7 +39,6 @@ function Form() {
     function subData(j){
         j.preventDefault()
         setData([...data,obj])
-
         console.log(data);
     }
 
@@ -49,7 +48,6 @@ function Form() {
                 <form action="" onSubmit={subData}>
                     <h1 className='h1'>Detail</h1>
                     <input className='tt' type="text" name='name' placeholder='Enter Your Name' onChange={getData} />
-
                     <input className='tt' type="text" name='course' placeholder='Enter Your Course' onChange={getData} />
                     <div className='po'>
                         <input className='btn1' type="button" name='hobby' value="Add" onClick={addInput} />
@@ -70,9 +68,7 @@ function Form() {
                                 </>
                             })
                         }
-
                     </div>
-
                     <input className='tt' type="submit" />
                 </form>
             </div>
