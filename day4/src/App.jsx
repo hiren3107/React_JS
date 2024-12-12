@@ -4,7 +4,7 @@ import "./App.css"
 
 
 function App() {
-  var [count, badalo] = useState(10)
+  var [count, badalo] = useState(0)
   
   function plus() {
     badalo(count + 1)
@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <Counter1 a={count} />
-      <button className="b" onClick={minus}>-</button>
+      <button className="b" onClick={minus} disabled={count<=0}>-</button>
       <button className="a" onClick={plus}>+</button>
     </div>
     

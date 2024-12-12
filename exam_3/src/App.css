@@ -11,7 +11,7 @@
 }
 form{
     width: 400px;
-    height: 420px;
+    height: 480px;
     border: 1px solid black;
     padding: 30px;
     border-radius: 8px;
@@ -36,4 +36,9 @@ select {
     }
 .p1{
         color: red;
+    }
+
+    .rr{
+        height: 40px;
+        width: 150px;
     }
