@@ -32,13 +32,11 @@ function Product() {
         if (img && img.type == "image/jpeg" || img.type == "image/png" ) {
             setObj({ ...obj, file: value })
             setImgErr(false)
-
         }
         else {
             setImgErr(true)
-
         }
-        console.log(img.type);
+        // console.log(img.type);
         
     }
 
@@ -47,15 +45,11 @@ function Product() {
         if (name == "name" && value.length <= 3) {
             setNameErr(true)
         }
-
         if (name == "price" && value < 0) {
             setPriceErr(true)
-
         }
-
         if (name == "des" && value.length >=200) {
             setDesErr(true)
-
         }
         if (name == "file") {
             setImgErr(true)
@@ -66,9 +60,7 @@ function Product() {
 
         if (name == "name") {
             setNameErr(false)
-
         }
-
         if (name == "price") {
             setPriceErr(false)
         }
