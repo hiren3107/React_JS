@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bapo{
+  width: 100%;
+  height: auto;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.bachu {
+  width: 20%;
+  height: auto;
+  border: 1px solid black;
+  padding: 40px;
+}
+input{
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 30px;
+  padding-left: 10px;
+}
+.cardbox{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 80px;
+}
+.cart{
+  width: 18%;
+  height: auto;
+  border: 1px solid black;
+  margin-bottom: 30px;
+  padding: 15px;
+  text-align: center;
+}
+.photo{
+  width: 100%;
+  height: 50%;
+}
+.pr{
+  font-size: 18px;
+}
+.prr{
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.butt1{
+  width: 45%;
+  height: 40px;
+  margin-right: 25px;
+}
+.butt2{
+  width: 45%;
+  height: 40px;
+}
