@@ -1,0 +1,36 @@
+{
+  "user": [
+    {
+      "id": "3256",
+      "user": "aa",
+      "email": "ahiren900@gmail.com",
+      "pass": "12345"
+    },
+    {
+      "id": "9a0d",
+      "user": "aaasd",
+      "email": "ahiren900@gmail.com",
+      "pass": "12345"
+    },
+    {
+      "id": "c263",
+      "user": "aaasd",
+      "email": "ahiren900@gmail.com",
+      "pass": "12345"
+    }
+  ],
+  "product": [
+    {
+      "id": "1285",
+      "Title": "ad",
+      "Price": "asd",
+      "Img": "https://www.jiomart.com/images/product/original/rvrgwpjvsp/bruton-trendy-sports-shoes-for-men-blue-product-images-rvrgwpjvsp-0-202209021256.jpg?im=Resize=(1000,1000)"
+    },
+    {
+      "id": "a7bd",
+      "Title": "dfg",
+      "Price": "5000",
+      "Img": "https://www.jiomart.com/images/product/original/rvrgwpjvsp/bruton-trendy-sports-shoes-for-men-blue-product-images-rvrgwpjvsp-0-202209021256.jpg?im=Resize=(1000,1000)"
+    }
+  ]
+}
