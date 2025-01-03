@@ -1,0 +1,36 @@
+{
+  "user": [
+    {
+      "id": "3256",
+      "user": "aa",
+      "email": "ahiren900@gmail.com",
+      "pass": "12345"
+    },
+    {
+      "id": "9a0d",
+      "user": "aaasd",
+      "email": "ahiren900@gmail.com",
+      "pass": "12345"
+    },
+    {
+      "id": "c263",
+      "user": "aaasd",
+      "email": "ahiren900@gmail.com",
+      "pass": "12345"
+    },
+    {
+      "id": "2c15",
+      "user": "hiren",
+      "email": "ahiren900@gmail.com",
+      "pass": "12345"
+    }
+  ],
+  "product": [
+    {
+      "id": "b430",
+      "Title": "jhafjhga",
+      "Price": "65654",
+      "Img": "https://www.tracerindia.com/cdn/shop/products/03_babda725-4aa3-49cc-bca0-8ce57dd60a3c.jpg?v=1697088758&width=1946"
+    }
+  ]
+}
