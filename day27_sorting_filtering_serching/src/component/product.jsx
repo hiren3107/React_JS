@@ -39,23 +39,14 @@ const Product = () => {
                 }
             })
         }
-        else{
-            arr = data
-
-        }
 
         if(search){
           arr= arr.filter((el)=>{
                 return  el.title.toLowerCase().includes(search.toLowerCase())               
             })
         }
-        else{
-            arr = data
 
-        }
-        console.log(search);
-
-
+    
 
         setVadharano(arr)
 
